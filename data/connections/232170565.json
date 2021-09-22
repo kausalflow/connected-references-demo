@@ -1,0 +1,22 @@
+{
+    "authors": [
+        {
+            "authorId": "37931573",
+            "name": "C. Murdock",
+            "url": "https://www.semanticscholar.org/author/37931573"
+        },
+        {
+            "authorId": "1820249",
+            "name": "S. Lucey",
+            "url": "https://www.semanticscholar.org/author/1820249"
+        }
+    ],
+    "corpusId": 232170565,
+    "doi": "",
+    "numCitedBy": 0,
+    "numCiting": 68,
+    "title": "Reframing Neural Networks: Deep Structure in Overcomplete Representations",
+    "venue": "ArXiv",
+    "year": 2021,
+    "local__referenced_to": []
+}

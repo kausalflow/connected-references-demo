@@ -1,0 +1,42 @@
+{
+    "authors": [
+        {
+            "authorId": "102947589",
+            "name": "Tom Beucler",
+            "url": "https://www.semanticscholar.org/author/102947589"
+        },
+        {
+            "authorId": "46303219",
+            "name": "M. Pritchard",
+            "url": "https://www.semanticscholar.org/author/46303219"
+        },
+        {
+            "authorId": "41151821",
+            "name": "S. Rasp",
+            "url": "https://www.semanticscholar.org/author/41151821"
+        },
+        {
+            "authorId": "51134196",
+            "name": "J. Ott",
+            "url": "https://www.semanticscholar.org/author/51134196"
+        },
+        {
+            "authorId": "144902513",
+            "name": "P. Baldi",
+            "url": "https://www.semanticscholar.org/author/144902513"
+        },
+        {
+            "authorId": "15572823",
+            "name": "P. Gentine",
+            "url": "https://www.semanticscholar.org/author/15572823"
+        }
+    ],
+    "corpusId": 202236953,
+    "doi": "10.1103/physrevlett.126.098302",
+    "numCitedBy": 48,
+    "numCiting": 67,
+    "title": "Enforcing Analytic Constraints in Neural Networks Emulating Physical Systems.",
+    "venue": "Physical review letters",
+    "year": 2021,
+    "local__referenced_to": []
+}

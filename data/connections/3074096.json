@@ -1,0 +1,29 @@
+{
+    "authors": [
+        {
+            "authorId": "153440022",
+            "name": "I. Goodfellow",
+            "url": "https://www.semanticscholar.org/author/153440022"
+        },
+        {
+            "authorId": "1751762",
+            "name": "Yoshua Bengio",
+            "url": "https://www.semanticscholar.org/author/1751762"
+        },
+        {
+            "authorId": "1760871",
+            "name": "Aaron C. Courville",
+            "url": "https://www.semanticscholar.org/author/1760871"
+        }
+    ],
+    "corpusId": 3074096,
+    "doi": "10.1038/nature14539",
+    "numCitedBy": 19824,
+    "numCiting": 944,
+    "title": "Deep Learning",
+    "venue": "Nature",
+    "year": 2015,
+    "local__referenced_to": [
+        "10.1007/978-1-4757-3264-1"
+    ]
+}

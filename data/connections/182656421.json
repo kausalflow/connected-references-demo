@@ -1,0 +1,17 @@
+{
+    "authors": [
+        {
+            "authorId": "48395540",
+            "name": "C. Rudin",
+            "url": "https://www.semanticscholar.org/author/48395540"
+        }
+    ],
+    "corpusId": 182656421,
+    "doi": "10.1038/s42256-019-0048-x",
+    "numCitedBy": 1134,
+    "numCiting": 75,
+    "title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead",
+    "venue": "",
+    "year": 2018,
+    "local__referenced_to": []
+}

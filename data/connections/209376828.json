@@ -1,0 +1,29 @@
+{
+    "authors": [
+        {
+            "authorId": "46893096",
+            "name": "G. Marcucci",
+            "url": "https://www.semanticscholar.org/author/46893096"
+        },
+        {
+            "authorId": "5214932",
+            "name": "D. Pierangeli",
+            "url": "https://www.semanticscholar.org/author/5214932"
+        },
+        {
+            "authorId": "1983655",
+            "name": "C. Conti",
+            "url": "https://www.semanticscholar.org/author/1983655"
+        }
+    ],
+    "corpusId": 209376828,
+    "doi": "10.1103/physrevlett.125.093901",
+    "numCitedBy": 31,
+    "numCiting": 102,
+    "title": "Theory of neuromorphic computing by waves: machine learning by rogue waves, dispersive shocks, and solitons",
+    "venue": "Physical review letters",
+    "year": 2020,
+    "local__referenced_to": [
+        "10.1038/nature14539"
+    ]
+}

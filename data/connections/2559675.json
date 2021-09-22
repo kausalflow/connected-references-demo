@@ -1,0 +1,19 @@
+{
+    "authors": [
+        {
+            "authorId": "1740213",
+            "name": "Pedro M. Domingos",
+            "url": "https://www.semanticscholar.org/author/1740213"
+        }
+    ],
+    "corpusId": 2559675,
+    "doi": "10.1145/2347736.2347755",
+    "numCitedBy": 1936,
+    "numCiting": 35,
+    "title": "A few useful things to know about machine learning",
+    "venue": "CACM",
+    "year": 2012,
+    "local__referenced_to": [
+        "10.1007/978-1-4757-3264-1"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "authors": [
+        {
+            "authorId": "15252080",
+            "name": "S. W\u00e4ldchen",
+            "url": "https://www.semanticscholar.org/author/15252080"
+        },
+        {
+            "authorId": "35474376",
+            "name": "Jan MacDonald",
+            "url": "https://www.semanticscholar.org/author/35474376"
+        },
+        {
+            "authorId": "121442117",
+            "name": "Sascha Hauch",
+            "url": "https://www.semanticscholar.org/author/121442117"
+        },
+        {
+            "authorId": "3125779",
+            "name": "G. Kutyniok",
+            "url": "https://www.semanticscholar.org/author/3125779"
+        }
+    ],
+    "corpusId": 231731967,
+    "doi": "10.1613/jair.1.12359",
+    "numCitedBy": 4,
+    "numCiting": 51,
+    "title": "The Computational Complexity of Understanding Binary Classifier Decisions",
+    "venue": "J. Artif. Intell. Res.",
+    "year": 2021,
+    "local__referenced_to": []
+}

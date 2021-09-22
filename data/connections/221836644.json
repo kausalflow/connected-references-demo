@@ -1,0 +1,32 @@
+{
+    "authors": [
+        {
+            "authorId": "1789499",
+            "name": "E. Weinan",
+            "url": "https://www.semanticscholar.org/author/1789499"
+        },
+        {
+            "authorId": "144905350",
+            "name": "Chao Ma",
+            "url": "https://www.semanticscholar.org/author/144905350"
+        },
+        {
+            "authorId": "102980121",
+            "name": "Stephan Wojtowytsch",
+            "url": "https://www.semanticscholar.org/author/102980121"
+        },
+        {
+            "authorId": "2116984139",
+            "name": "Lei Wu",
+            "url": "https://www.semanticscholar.org/author/2116984139"
+        }
+    ],
+    "corpusId": 221836644,
+    "doi": "10.4208/csiam-am.so-2020-0002",
+    "numCitedBy": 40,
+    "numCiting": 110,
+    "title": "Towards a Mathematical Understanding of Neural Network-Based Machine Learning: what we know and what we don't",
+    "venue": "ArXiv",
+    "year": 2020,
+    "local__referenced_to": []
+}

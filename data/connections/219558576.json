@@ -1,0 +1,42 @@
+{
+    "authors": [
+        {
+            "authorId": "145190435",
+            "name": "A. Bensoussan",
+            "url": "https://www.semanticscholar.org/author/145190435"
+        },
+        {
+            "authorId": "2048554823",
+            "name": "Yiqun Li",
+            "url": "https://www.semanticscholar.org/author/2048554823"
+        },
+        {
+            "authorId": "2112294558",
+            "name": "Dinh Phan Cao Nguyen",
+            "url": "https://www.semanticscholar.org/author/2112294558"
+        },
+        {
+            "authorId": "2066596118",
+            "name": "M. Tran",
+            "url": "https://www.semanticscholar.org/author/2066596118"
+        },
+        {
+            "authorId": "2059043",
+            "name": "S. Yam",
+            "url": "https://www.semanticscholar.org/author/2059043"
+        },
+        {
+            "authorId": "2118828349",
+            "name": "Xiang Zhou",
+            "url": "https://www.semanticscholar.org/author/2118828349"
+        }
+    ],
+    "corpusId": 219558576,
+    "doi": "",
+    "numCitedBy": 1,
+    "numCiting": 30,
+    "title": "Machine Learning and Control Theory",
+    "venue": "ArXiv",
+    "year": 2020,
+    "local__referenced_to": []
+}
