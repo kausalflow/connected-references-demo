@@ -1,0 +1,32 @@
+{
+    "authors": [
+        {
+            "authorId": "46881670",
+            "name": "Chelsea Finn",
+            "url": "https://www.semanticscholar.org/author/46881670"
+        },
+        {
+            "authorId": "145791315",
+            "name": "P. Christiano",
+            "url": "https://www.semanticscholar.org/author/145791315"
+        },
+        {
+            "authorId": "1689992",
+            "name": "P. Abbeel",
+            "url": "https://www.semanticscholar.org/author/1689992"
+        },
+        {
+            "authorId": "1736651",
+            "name": "Sergey Levine",
+            "url": "https://www.semanticscholar.org/author/1736651"
+        }
+    ],
+    "corpusId": 3248959,
+    "doi": "",
+    "numCitedBy": 199,
+    "numCiting": 42,
+    "title": "A Connection between Generative Adversarial Networks, Inverse Reinforcement Learning, and Energy-Based Models",
+    "venue": "ArXiv",
+    "year": 2016,
+    "local__referenced_to": []
+}
