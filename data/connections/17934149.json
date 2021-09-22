@@ -1,0 +1,22 @@
+{
+    "authors": [
+        {
+            "authorId": "72691430",
+            "name": "Panagiotis Toulis",
+            "url": "https://www.semanticscholar.org/author/72691430"
+        },
+        {
+            "authorId": "30907562",
+            "name": "D. Parkes",
+            "url": "https://www.semanticscholar.org/author/30907562"
+        }
+    ],
+    "corpusId": 17934149,
+    "doi": "",
+    "numCitedBy": 1,
+    "numCiting": 30,
+    "title": "Long-term causal effects of interventions in multiagent economic mechanisms",
+    "venue": "",
+    "year": 2016,
+    "local__referenced_to": []
+}

@@ -1,0 +1,22 @@
+{
+    "authors": [
+        {
+            "authorId": "153583218",
+            "name": "Mehdi Mirza",
+            "url": "https://www.semanticscholar.org/author/153583218"
+        },
+        {
+            "authorId": "2217144",
+            "name": "Simon Osindero",
+            "url": "https://www.semanticscholar.org/author/2217144"
+        }
+    ],
+    "corpusId": 12803511,
+    "doi": "",
+    "numCitedBy": 5020,
+    "numCiting": 21,
+    "title": "Conditional Generative Adversarial Nets",
+    "venue": "ArXiv",
+    "year": 2014,
+    "local__referenced_to": []
+}

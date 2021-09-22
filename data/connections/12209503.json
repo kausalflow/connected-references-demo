@@ -1,0 +1,52 @@
+{
+    "authors": [
+        {
+            "authorId": "153440022",
+            "name": "I. Goodfellow",
+            "url": "https://www.semanticscholar.org/author/153440022"
+        },
+        {
+            "authorId": "2409581",
+            "name": "Jean Pouget-Abadie",
+            "url": "https://www.semanticscholar.org/author/2409581"
+        },
+        {
+            "authorId": "153583218",
+            "name": "Mehdi Mirza",
+            "url": "https://www.semanticscholar.org/author/153583218"
+        },
+        {
+            "authorId": "2113742925",
+            "name": "Bing Xu",
+            "url": "https://www.semanticscholar.org/author/2113742925"
+        },
+        {
+            "authorId": "1923596",
+            "name": "David Warde-Farley",
+            "url": "https://www.semanticscholar.org/author/1923596"
+        },
+        {
+            "authorId": "1955694",
+            "name": "Sherjil Ozair",
+            "url": "https://www.semanticscholar.org/author/1955694"
+        },
+        {
+            "authorId": "1760871",
+            "name": "Aaron C. Courville",
+            "url": "https://www.semanticscholar.org/author/1760871"
+        },
+        {
+            "authorId": "1751762",
+            "name": "Yoshua Bengio",
+            "url": "https://www.semanticscholar.org/author/1751762"
+        }
+    ],
+    "corpusId": 12209503,
+    "doi": "10.1007/978-1-4842-3679-6_8",
+    "numCitedBy": 3014,
+    "numCiting": 42,
+    "title": "Generative Adversarial Networks",
+    "venue": "ArXiv",
+    "year": 2014,
+    "local__referenced_to": []
+}

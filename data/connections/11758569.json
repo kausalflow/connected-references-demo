@@ -1,0 +1,27 @@
+{
+    "authors": [
+        {
+            "authorId": "38909097",
+            "name": "Alec Radford",
+            "url": "https://www.semanticscholar.org/author/38909097"
+        },
+        {
+            "authorId": "2096458",
+            "name": "Luke Metz",
+            "url": "https://www.semanticscholar.org/author/2096458"
+        },
+        {
+            "authorId": "2127604",
+            "name": "Soumith Chintala",
+            "url": "https://www.semanticscholar.org/author/2127604"
+        }
+    ],
+    "corpusId": 11758569,
+    "doi": "",
+    "numCitedBy": 8599,
+    "numCiting": 58,
+    "title": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks",
+    "venue": "ICLR",
+    "year": 2016,
+    "local__referenced_to": []
+}
