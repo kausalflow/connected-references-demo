@@ -1,4 +1,4 @@
-name: Visualize ML
+name: Visualize Climate Change Papers
 on:
   push:
     branches:
