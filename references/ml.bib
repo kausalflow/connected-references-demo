@@ -1,719 +1,330 @@
-@ARTICLE{Louppe2014-tc,
-  title    = "Understanding Random Forests: From Theory to Practice",
-  author   = "Louppe, Gilles",
-  abstract = "Data analysis and machine learning have become an integrative
-              part of the modern scientific methodology, offering automated
-              procedures for the prediction of a phenomenon based on past
-              observations, unraveling underlying patterns in data and
-              providing insights about the problem. Yet, caution should avoid
-              using machine learning as a black-box tool, but rather consider
-              it as a methodology, with a rational thought process that is
-              entirely dependent on the problem under study. In particular, the
-              use of algorithms should ideally require a reasonable
-              understanding of their mechanisms, properties and limitations, in
-              order to better apprehend and interpret their results.
-              Accordingly, the goal of this thesis is to provide an in-depth
-              analysis of random forests, consistently calling into question
-              each and every part of the algorithm, in order to shed new light
-              on its learning capabilities, inner workings and
-              interpretability. The first part of this work studies the
-              induction of decision trees and the construction of ensembles of
-              randomized trees, motivating their design and purpose whenever
-              possible. Our contributions follow with an original complexity
-              analysis of random forests, showing their good computational
-              performance and scalability, along with an in-depth discussion of
-              their implementation details, as contributed within Scikit-Learn.
-              In the second part of this work, we analyse and discuss the
-              interpretability of random forests in the eyes of variable
-              importance measures. The core of our contributions rests in the
-              theoretical characterization of the Mean Decrease of Impurity
-              variable importance measure, from which we prove and derive some
-              of its properties in the case of multiway totally randomized
-              trees and in asymptotic conditions. In consequence of this work,
-              our analysis demonstrates that variable importances [...].",
-  number   = "July",
-  year     =  2014,
-  url      = "http://arxiv.org/abs/1407.7502",
-  arxivid  = "1407.7502"
-}
-
-@ARTICLE{Mentch2019-ld,
-  title    = "Randomization as Regularization: A Degrees of Freedom Explanation
-              for Random Forest Success",
-  author   = "Mentch, Lucas and Zhou, Siyu",
-  abstract = "Random forests remain among the most popular off-the-shelf
-              supervised machine learning tools with a well-established track
-              record of predictive accuracy in both regression and
-              classification settings. Despite their empirical success as well
-              as a bevy of recent work investigating their statistical
-              properties, a full and satisfying explanation for their success
-              has yet to be put forth. Here we aim to take a step forward in
-              this direction by demonstrating that the additional randomness
-              injected into individual trees serves as a form of implicit
-              regularization, making random forests an ideal model in low
-              signal-to-noise ratio (SNR) settings. Specifically, from a
-              model-complexity perspective, we show that the mtry parameter in
-              random forests serves much the same purpose as the shrinkage
-              penalty in explicitly regularized regression procedures like
-              lasso and ridge regression. To highlight this point, we design a
-              randomized linear-model-based forward selection procedure
-              intended as an analogue to tree-based random forests and
-              demonstrate its surprisingly strong empirical performance.
-              Numerous demonstrations on both real and synthetic data are
-              provided.",
-  volume   =  21,
-  pages    = "1--36",
-  year     =  2019,
-  url      = "http://arxiv.org/abs/1911.00190",
-  keywords = "bagging; degrees of freedom; interpolation; model selection;
-              regularization",
-  arxivid  = "1911.00190"
-}
-
-@ARTICLE{Carliles2010-cn,
-  title    = "Random forests for photometric redshifts",
-  author   = "Carliles, Samuel and Budav{\'a}ri, Tams and Heinis, S{\'e}bastien
-              and Priebe, Carey and Szalay, Alexander S",
-  abstract = "The main challenge today in photometric redshift estimation is
-              not in the accuracy but in understanding the uncertainties. We
-              introduce an empirical method based on Random Forests to address
-              these issues. The training algorithm builds a set of optimal
-              decision trees on subsets of the available spectroscopic sample,
-              which provide independent constraints on the redshift of each
-              galaxy. The combined forest estimates have intriguing statistical
-              properties, notable among which are Gaussian errors. We
-              demonstrate the power of our approach on multi-color measurements
-              of the Sloan Digital Sky Survey. \copyright{} 2010 The American
-              Astronomical Society.",
-  journal  = "Astrophys. J.",
-  volume   =  712,
-  number   =  1,
-  pages    = "511--515",
-  year     =  2010,
-  url      = "http://dx.doi.org/10.1088/0004-637X/712/1/511",
-  keywords = "Galaxies: distances and redshifts; Methods: data analysis;
-              Methods: statistical; Techniques: photometric",
-  issn     = "0004-637X, 1538-4357",
-  doi      = "10.1088/0004-637X/712/1/511"
-}
-
-@ARTICLE{Petkovic2019-rk,
-  title    = "{RFEX}: Simple Random Forest Model and Sample Explainer for
-              non-Machine Learning experts",
-  author   = "Petkovic, D and Alavi, A and Cai, D and Yang, J and Barlaskar, S",
-  abstract = "Machine Learning (ML) is becoming an increasingly critical
-              technology in many areas. However, its complexity and its
-              frequent non-transparency create significant challenges,
-              especially in the biomedical and health areas. One of the
-              critical components in addressing the above challenges is the
-              explainability or transparency of ML systems, which refers to the
-              model (related to the whole data) and sample explainability
-              (related to specific samples). Our research focuses on both model
-              and sample explainability of Random Forest (RF) classifiers. Our
-              RF explainer, RFEX, is designed from the ground up with non-ML
-              experts in mind, and with simplicity and familiarity, e.g.
-              providing a one-page tabular output and measures familiar to most
-              users. In this paper we present significant improvement in RFEX
-              Model explainer compared to the version published previously, a
-              new RFEX Sample explainer that provides explanation of how the RF
-              classifies a particular data sample and is designed to directly
-              relate to RFEX Model explainer, and a RFEX Model and Sample
-              explainer case study from our collaboration with the J. Craig
-              Venter Institute (JCVI). We show that our approach offers a
-              simple yet powerful means of explaining RF classification at the
-              model and sample levels, and in some cases even points to areas
-              of new investigation. RFEX is easy to implement using available
-              RF tools and its tabular format offers easy-to-understand
-              representations for non-experts, enabling them to better leverage
-              the RF technology.",
-  journal  = "bioRxiv",
-  pages    = "819078",
-  year     =  2019,
-  url      = "https://www.biorxiv.org/content/10.1101/819078v1?rss=1",
-  keywords = "explainability; machine learning; random forest; user-in-the-loop",
-  doi      = "10.1101/819078"
-}
-
-@ARTICLE{Grimit2006-ne,
-  title    = "The continuous ranked probability score for circular variables
-              and its application to mesoscale forecast ensemble verification",
-  author   = "Grimit, E P and Gneiting, T and Berrocal, V J and Johnson, N A",
-  abstract = "An analogue of the linear continuous ranked probability score is
-              introduced that applies to probabilistic forecasts of circular
-              quantities, such as wind direction. This scoring rule is proper
-              and thereby discourages hedging. The circular continuous ranked
-              probability score reduces to angular distance when the forecast
-              is deterministic, just as the linear continuous ranked
-              probability score generalizes the absolute error. Furthermore,
-              the circular continuous ranked probability score provides a
-              direct way of comparing deterministic forecasts, discrete
-              forecast ensembles, and post-processed forecast ensembles that
-              can take the form of circular probability density functions. The
-              circular continuous ranked probability score is used in this
-              study to compare predictions of 10 m wind direction for 361 cases
-              of mesoscale, short-range ensemble forecasts over the North
-              American Pacific Northwest. Simple, calibrated probability
-              forecasts based on the ensemble mean and its forecast error
-              history over the period outperform probability forecasts
-              constructed directly from the ensemble sample statistics. These
-              results suggest that short-term forecast uncertainty is not yet
-              well predicted at mesoscale resolutions near the surface, despite
-              the inclusion of multi-scheme physics diversity and surface
-              boundary parameter perturbations in the mesoscale ensemble
-              design. \copyright{} Royal Meteorological Society, 2006.",
-  journal  = "Quart. J. Roy. Meteor. Soc.",
-  volume   =  132,
-  number   = "621 C",
-  pages    = "2925--2942",
-  year     =  2006,
-  url      = "http://dx.doi.org/10.1256/qj.05.235",
-  keywords = "Calibration; Proper scoring rule; Sharpness; Von Mises
-              distribution",
-  issn     = "0035-9009",
-  doi      = "10.1256/qj.05.235"
-}
-
-@MISC{Friedman2000-xi,
-  title    = "Additive Logistic Regression",
-  author   = "Friedman, Jerome and Hastie, Trevor and Tibshirani, Robert",
-  abstract = "Boosting is one of the most important recent developments in
-              classification methodology. Boosting works by sequentially
-              applying a classification algorithm to reweighted versions of the
-              training data and then taking a weighted majority vote of the
-              sequence of classifiers thus produced. For many classification
-              algorithms, this simple strategy results in dramatic improvements
-              in performance. We show that this seemingly mysterious phenomenon
-              can be understood in terms of well-known statistical principles,
-              namely additive modeling and maximum likelihood. For the
-              two-class problem, boosting can be viewed as an approximation to
-              additive modeling on the logistic scale using maximum Bernoulli
-              likelihood as a criterion. We develop more direct approximations
-              and show that they exhibit nearly identical results to boosting.
-              Direct multiclass generalizations based on multinomial likelihood
-              are derived that exhibit performance comparable to other recently
-              proposed multiclass generalizations of boosting in most
-              situations, and far superior in some. We suggest a minor
-              modification to boosting that can reduce computation, often by
-              factors of 10 to 50. Finally, we apply these insights to produce
-              an alternative formulation of boosting decision trees. This
-              approach, based on best-first truncated tree induction, often
-              leads to better performance, and can provide interpretable
-              descriptions of the aggregate decision rule. It is also much
-              faster computationally, making it more suitable to large-scale
-              data mining applications.",
-  journal  = "The Annals of Statistics",
-  volume   =  28,
+@ARTICLE{Pejo2019-jr,
+  title    = "Together or Alone: The Price of Privacy in Collaborative Learning",
+  author   = "Pej{\'o}, Bal{\'a}zs and Tang, Qiang and Bicz{\'o}k, Gergely",
+  abstract = "Machine learning algorithms have reached mainstream status and
+              are widely deployed in many applications. The accuracy of such
+              algorithms depends significantly on the size of the underlying
+              training dataset; in reality a small or medium sized organization
+              often does not have the necessary data to train a reasonably
+              accurate model. For such organizations, a realistic solution is
+              to train their machine learning models based on their joint
+              dataset (which is a union of the individual ones). Unfortunately,
+              privacy concerns prevent them from straightforwardly doing so.
+              While a number of privacy-preserving solutions exist for
+              collaborating organizations to securely aggregate the parameters
+              in the process of training the models, we are not aware of any
+              work that provides a rational framework for the participants to
+              precisely balance the privacy loss and accuracy gain in their
+              collaboration. In this paper, by focusing on a two-player
+              setting, we model the collaborative training process as a
+              two-player game where each player aims to achieve higher accuracy
+              while preserving the privacy of its own dataset. We introduce the
+              notion of Price of Privacy , a novel approach for measuring the
+              impact of privacy protection on the accuracy in the proposed
+              framework. Furthermore, we develop a game-theoretical model for
+              different player types, and then either find or prove the
+              existence of a Nash Equilibrium with regard to the strength of
+              privacy protection for each player. Using recommendation systems
+              as our main use case, we demonstrate how two players can make
+              practical use of the proposed theoretical framework, including
+              setting up the parameters and approximating the non-trivial Nash
+              Equilibrium.",
+  journal  = "Proceedings on Privacy Enhancing Technologies",
+  volume   =  2019,
   number   =  2,
-  pages    = "337--374",
-  year     =  2000,
-  url      = "http://dx.doi.org/10.1214/aos/1016218223",
-  issn     = "0090-5364",
-  pmid     = "2565644",
-  arxivid  = "0804.2330",
-  doi      = "10.1214/aos/1016218223"
-}
-
-@ARTICLE{Zhang2017-xd,
-  title    = "Strategies for Combining {Tree-Based} Ensemble Models",
-  author   = "Zhang, Yi",
-  abstract = "Ensemble models have proved effective in a variety of
-              classification tasks. These models combine the predictions of
-              several base models to achieve higher out-of-sample
-              classification accuracy than the base models. Base models are
-              typically trained using different subsets of training examples
-              and input features. Ensemble classifiers are particularly
-              effective when their constituent base models are diverse in terms
-              of their prediction accuracy in different regions of the feature
-              space. This dissertation investigated methods for combining
-              ensemble models, treating them as base models. The goal is to
-              develop a strategy for combining ensemble classifiers that
-              results in higher classification accuracy than the constituent
-              ensemble models. Three of the best performing tree-based ensemble
-              methods -- random forest, extremely randomized tree, and eXtreme
-              gradient boosting model -- were used to generate a set of base
-              models. Outputs from classifiers generated by these methods were
-              then combined to create an ensemble classifier. This dissertation
-              systematically investigated methods for (1) selecting a set of
-              diverse base models, and (2) combining the selected base models.
-              The methods were evaluated using public domain data sets which
-              have been extensively used for benchmarking classification
-              models. The research established that applying random forest as
-              the final ensemble method to integrate selected base models and
-              factor scores of multiple correspondence analysis turned out to
-              be the best ensemble approach.",
-  journal  = "ProQuest Dissertations and Theses",
-  number   =  1021,
-  pages    = "159",
-  year     =  2017,
-  url      = "https://login.pallas2.tcl.sc.edu/login?url=https://search.proquest.com/docview/1991507120?accountid=13965%0Ahttp://resolver.ebscohost.com/openurl?ctx_ver=Z39.88-2004&ctx_enc=info:ofi/enc:UTF-8&rfr_id=info:sid/ProQuest+Dissertations+%26+Theses+Global&rft_v",
-  keywords = "0723:Information science; Communication and the arts; Ensemble
-              models; Extremely randomized tree; Information science; Model
-              selection; Multiple correspondence analysis; Predictive models;
-              Random forest; Tree based ensemble model; eXtreme gradient
-              boosting model"
-}
-
-@ARTICLE{Lu2019-yw,
-  title    = "A Unified Framework for Random Forest Prediction Error Estimation",
-  author   = "Lu, Benjamin and Hardin, Johanna",
-  abstract = "We introduce a unified framework for random forest prediction
-              error estimation based on a novel estimator of the conditional
-              prediction error distribution function. Our framework enables
-              immediate estimation of key parameters often of interest,
-              including conditional mean squared prediction errors, conditional
-              biases, and conditional quantiles, by a straightforward plug-in
-              routine. Our approach is particularly well-adapted for prediction
-              interval estimation, which has received less attention in the
-              random forest literature despite its practical utility; we show
-              via simulations that our proposed prediction intervals are
-              competitive with, and in some settings outperform, existing
-              methods. To establish theoretical grounding for our framework, we
-              prove pointwise uniform consistency of a more stringent version
-              of our estimator of the conditional prediction error
-              distribution. In addition to providing a suite of measures of
-              prediction uncertainty, our general framework is applicable to
-              many variants of the random forest algorithm. The estimators
-              introduced here are implemented in the R package forestError.",
+  pages    = "47--65",
   year     =  2019,
-  url      = "http://arxiv.org/abs/1912.07435",
-  keywords = "bagging; bias; prediction error; prediction intervals",
-  arxivid  = "1912.07435"
+  url      = "http://dx.doi.org/10.2478/popets-2019-0019",
+  keywords = "accepted; game theory; machine learning; privacy; received;
+              recommendation systems; revised",
+  arxivid  = "1712.00270",
+  doi      = "10.2478/popets-2019-0019"
 }
 
-@BOOK{Janitza2018-gf,
-  title    = "On the overestimation of random forest's out-of-bag error",
-  author   = "Janitza, Silke and Hornung, Roman",
-  abstract = "The ensemble method random forests has become a popular
-              classification tool in bioinformatics and related fields. The
-              out-of-bag error is an error estimation technique often used to
-              evaluate the accuracy of a random forest and to select
-              appropriate values for tuning parameters, such as the number of
-              candidate predictors that are randomly drawn for a split,
-              referred to as mtry. However, for binary classification problems
-              with metric predictors it has been shown that the out-of-bag
-              error can overestimate the true prediction error depending on the
-              choices of random forests parameters. Based on simulated and real
-              data this paper aims to identify settings for which this
-              overestimation is likely. It is, moreover, questionable whether
-              the out-of-bag error can be used in classification tasks for
-              selecting tuning parameters like mtry, because the overestimation
-              is seen to depend on the parameter mtry. The simulation-based and
-              real-data based studies with metric predictor variables performed
-              in this paper show that the overestimation is largest in balanced
-              settings and in settings with few observations, a large number of
-              predictor variables, small correlations between predictors and
-              weak effects. There was hardly any impact of the overestimation
-              on tuning parameter selection. However, although the prediction
-              performance of random forests was not substantially affected when
-              using the out-of-bag error for tuning parameter selection in the
-              present studies, one cannot be sure that this applies to all
-              future data. For settings with metric predictor variables it is
-              therefore strongly recommended to use stratified subsampling with
-              sampling fractions that are proportional to the class sizes for
-              both tuning parameter selection and error estimation in random
-              forests. This yielded less biased estimates of the true
-              prediction error. In unbalanced settings, in which there is a
-              strong interest in predicting observations from the smaller
-              classes well, sampling the same number of observations from each
-              class is a promising alternative.",
-  volume   =  13,
-  pages    = "1--31",
-  year     =  2018,
-  url      = "http://dx.doi.org/10.1371/journal.pone.0201904",
-  issn     = "1932-6203",
-  isbn     = "9781111111113",
-  doi      = "10.1371/journal.pone.0201904"
-}
-
-@ARTICLE{Biau2016-ba,
-  title    = "A random forest guided tour",
-  author   = "Biau, G{\'e}rard and Scornet, Erwan",
-  abstract = "The random forest algorithm, proposed by L. Breiman in 2001, has
-              been extremely successful as a general-purpose classification and
-              regression method. The approach, which combines several
-              randomized decision trees and aggregates their predictions by
-              averaging, has shown excellent performance in settings where the
-              number of variables is much larger than the number of
-              observations. Moreover, it is versatile enough to be applied to
-              large-scale problems, is easily adapted to various ad hoc
-              learning tasks, and returns measures of variable importance. The
-              present article reviews the most recent theoretical and
-              methodological developments for random forests. Emphasis is
-              placed on the mathematical forces driving the algorithm, with
-              special attention given to the selection of parameters, the
-              resampling mechanism, and variable importance measures. This
-              review is intended to provide non-experts easy access to the main
-              ideas.",
-  journal  = "Test",
-  volume   =  25,
-  number   =  2,
-  pages    = "197--227",
+@ARTICLE{Hartford2016-gp,
+  title    = "Deep learning for predicting human strategic behavior",
+  author   = "Hartford, Jason and Wright, James R and Leyton-Brown, Kevin",
+  abstract = "Predicting the behavior of human participants in strategic
+              settings is an important problem in many domains. Most existing
+              work either assumes that participants are perfectly rational, or
+              attempts to directly model each participant's cognitive processes
+              based on insights from cognitive psychology and experimental
+              economics. In this work, we present an alternative, a deep
+              learning approach that automatically performs cognitive modeling
+              without relying on such expert knowledge. We introduce a novel
+              architecture that allows a single network to generalize across
+              different input and output dimensions by using matrix units
+              rather than scalar units, and show that its performance
+              significantly outperforms that of the previous state of the art,
+              which relies on expert-constructed features.",
+  journal  = "Adv. Neural Inf. Process. Syst.",
+  number   = "Nips",
+  pages    = "2432--2440",
   year     =  2016,
-  url      = "http://dx.doi.org/10.1007/s11749-016-0481-7",
-  keywords = "Parameter tuning; Random forests; Randomization; Resampling;
-              Variable importance",
-  issn     = "1133-0686",
-  arxivid  = "1511.05741",
-  doi      = "10.1007/s11749-016-0481-7"
+  issn     = "1049-5258"
 }
 
-@ARTICLE{Tomita2015-my,
-  title    = "Sparse Projection Oblique Randomer Forests",
-  author   = "Tomita, Tyler M and Browne, James and Shen, Cencheng and Chung,
-              Jaewon and Patsolic, Jesse L and Falk, Benjamin and Yim, Jason
-              and Priebe, Carey E and Burns, Randal and Maggioni, Mauro and
-              Vogelstein, Joshua T",
-  abstract = "Decision forests, including Random Forests and Gradient Boosting
-              Trees, have recently demonstrated state-of-the-art performance in
-              a variety of machine learning settings. Decision forests are
-              typically ensembles of axis-aligned decision trees; that is,
-              trees that split only along feature dimensions. In contrast, many
-              recent extensions to decision forests are based on axis-oblique
-              splits. Unfortunately, these extensions forfeit one or more of
-              the favorable properties of decision forests based on
-              axis-aligned splits, such as robustness to many noise dimensions,
-              interpretability, or computational efficiency. We introduce yet
-              another decision forest, called ``Sparse Projection Oblique
-              Randomer Forests'' (SPORF). SPORF uses very sparse random
-              projections, i.e., linear combinations of a small subset of
-              features. SPORF significantly improves accuracy over existing
-              state-of-the-art algorithms on a standard benchmark suite for
-              classification with >100 problems of varying dimension, sample
-              size, and number of classes. To illustrate how SPORF addresses
-              the limitations of both axis-aligned and existing oblique
-              decision forest methods, we conduct extensive simulated
-              experiments. SPORF typically yields improved performance over
-              existing decision forests, while mitigating computational
-              efficiency and scalability and maintaining interpretability.
-              SPORF can easily be incorporated into other ensemble methods such
-              as boosting to obtain potentially similar gains.",
-  year     =  2015,
-  url      = "http://arxiv.org/abs/1506.03410",
-  arxivid  = "1506.03410"
-}
-
-@ARTICLE{Giordano2018-gf,
-  title    = "A Swiss Army Infinitesimal Jackknife",
-  author   = "Giordano, Ryan and Stephenson, Will and Liu, Runjing and Jordan,
-              Michael I and Broderick, Tamara",
-  abstract = "The error or variability of machine learning algorithms is often
-              assessed by repeatedly re-fitting a model with different weighted
-              versions of the observed data. The ubiquitous tools of
-              cross-validation (CV) and the bootstrap are examples of this
-              technique. These methods are powerful in large part due to their
-              model agnosticism but can be slow to run on modern, large data
-              sets due to the need to repeatedly re-fit the model. In this
-              work, we use a linear approximation to the dependence of the
-              fitting procedure on the weights, producing results that can be
-              faster than repeated re-fitting by an order of magnitude. This
-              linear approximation is sometimes known as the ``infinitesimal
-              jackknife'' in the statistics literature, where it is mostly used
-              as a theoretical tool to prove asymptotic results. We provide
-              explicit finite-sample error bounds for the infinitesimal
-              jackknife in terms of a small number of simple, verifiable
-              assumptions. Our results apply whether the weights and data are
-              stochastic or deterministic, and so can be used as a tool for
-              proving the accuracy of the infinitesimal jackknife on a wide
-              variety of problems. As a corollary, we state mild regularity
-              conditions under which our approximation consistently estimates
-              true leave-$k$-out cross-validation for any fixed $k$. These
-              theoretical results, together with modern automatic
-              differentiation software, support the application of the
-              infinitesimal jackknife to a wide variety of practical problems
-              in machine learning, providing a ``Swiss Army infinitesimal
-              jackknife.'' We demonstrate the accuracy of our methods on a
-              range of simulated and real datasets.",
-  pages    = "1--75",
-  year     =  2018,
-  url      = "http://arxiv.org/abs/1806.00550",
-  arxivid  = "1806.00550"
-}
-
-@ARTICLE{Niculescu-Mizil2007-bo,
-  title    = "Obtaining Calibrated Probabilities from Boosting",
-  author   = "Niculescu-Mizil, Alexandru and Caruana, Rich",
-  abstract = "Boosted decision trees typically yield good accuracy, preci-
-              sion, and ROC area. However, because the outputs from boosting
-              are not well calibrated posterior probabilities, boost- ing
-              yields poor squared error and cross-entropy. We empir- ically
-              demonstrate why AdaBoost predicts distorted proba- bilities and
-              examine three calibration methods for correcting this distortion:
-              Platt Scaling, Isotonic Regression, and Lo- gistic Correction. We
-              also experiment with boosting using log-loss instead of the usual
-              exponential loss. Experiments show that Logistic Correction and
-              boosting with log-loss work well when boosting weak models such
-              as decision stumps, but yield poor performance when boosting more
-              complex mod- els such as full decision trees. Platt Scaling and
-              Isotonic Re- gression, however, significantly improve the
-              probabilities pre- dicted by both boosted stumps and boosted
-              trees. After cal- ibration, boosted full decision trees predict
-              better probabili- ties than other learning methods such as SVMs,
-              neural nets, bagged decision trees, and KNNs, even after these
-              methods are",
-  journal  = "Aktuelle Urol.",
-  year     =  2007,
-  url      = "http://dx.doi.org/10.1055/s-2008-1065268",
-  issn     = "0001-7868",
-  doi      = "10.1055/s-2008-1065268"
-}
-
-@ARTICLE{Breiman2001-oj,
-  title    = "Random Forests",
-  author   = "Breiman, Leo",
-  abstract = "Random forests are a combination of tree predictors such that
-              each tree depends on the values of a random vector sampled
-              independently and with the same distribution for all trees in the
-              forest. The generalization error for forests converges a.s. to a
-              limit as the number of trees in the forest becomes large. The
-              generalization error of a forest of tree classifiers depends on
-              the strength of the individual trees in the forest and the
-              correlation between them. Using a random selection of features to
-              split each node yields error rates that compare favorably to
-              Adaboost (Y. Freund \& R. Schapire, Machine Learning: Proceedings
-              of the Thirteenth International conference, ***, 148--156), but
-              are more robust with respect to noise. Internal estimates monitor
-              error, strength, and correlation and these are used to show the
-              response to increasing the number of features used in the
-              splitting. Internal estimates are also used to measure variable
-              importance. These ideas are also applicable to regression.",
-  journal  = "Mach. Learn.",
-  volume   =  45,
-  number   =  1,
-  pages    = "5--32",
-  year     =  2001,
-  url      = "https://doi.org/10.1023/A:1010933404324",
-  keywords = "classification; ensemble; regression",
-  issn     = "0885-6125",
-  doi      = "10.1023/A:101093340"
-}
-
-@ARTICLE{Mentch2016-va,
-  title    = "Quantifying uncertainty in random forests via confidence
-              intervals and hypothesis tests",
-  author   = "Mentch, Lucas and Hooker, Giles",
-  abstract = "This work develops formal statistical inference procedures for
-              predictions generated by supervised learning ensembles. Ensemble
-              methods based on bootstrapping, such as bagging and random
-              forests, have improved the predictive accuracy of individual
-              trees, but fail to provide a framework in which distributional
-              results can be easily determined. Instead of aggregating full
-              bootstrap samples, we consider predicting by averaging over trees
-              built on subsamples of the training set and demonstrate that the
-              resulting estimator takes the form of a U-statistic. As such,
-              predictions for individual feature vectors are asymptotically
-              normal, allowing for confidence intervals to accompany
-              predictions. In practice, a subset of subsamples is used for
-              computational speed; here our estimators take the form of
-              incomplete U-statistics and equivalent results are derived. We
-              further demonstrate that this setup provides a framework for
-              testing the significance of features. Moreover, the internal
-              estimation method we develop allows us to estimate the variance
-              parameters and perform these inference procedures at no
-              additional computational cost. Simulations and illustrations on a
-              real data set are provided.",
-  journal  = "J. Mach. Learn. Res.",
-  volume   =  17,
-  pages    = "1--41",
+@ARTICLE{Toulis2016-gg,
+  title    = "Long-term causal effects via behavioral game theory",
+  author   = "Toulis, Panagiotis and Parkes, David C",
+  abstract = "Planned experiments are the gold standard in reliably comparing
+              the causal effect of switching from a baseline policy to a new
+              policy. One critical shortcoming of classical experimental
+              methods, however, is that they typically do not take into account
+              the dynamic nature of response to policy changes. For instance,
+              in an experiment where we seek to understand the effects of a new
+              ad pricing policy on auction revenue, agents may adapt their
+              bidding in response to the experimental pricing changes. Thus,
+              causal effects of the new pricing policy after such adaptation
+              period, the long-term causal effects, are not captured by the
+              classical methodology even though they clearly are more
+              indicative of the value of the new policy. Here, we formalize a
+              framework to define and estimate long-term causal effects of
+              policy changes in multiagent economies. Central to our approach
+              is behavioral game theory, which we leverage to formulate the
+              ignorability assumptions that are necessary for causal inference.
+              Under such assumptions we estimate long-term causal effects
+              through a latent space approach, where a behavioral model of how
+              agents act conditional on their latent behaviors is combined with
+              a temporal model of how behaviors evolve over time.",
+  journal  = "Adv. Neural Inf. Process. Syst.",
+  number   = "Nips",
+  pages    = "2612--2620",
   year     =  2016,
-  url      = "http://arxiv.org/abs/1404.6473",
-  keywords = "Bagging; Random forests; Subbagging; Trees; U-statistics",
-  issn     = "1532-4435, 1533-7928",
-  arxivid  = "1404.6473"
+  url      = "http://arxiv.org/abs/1501.02315",
+  issn     = "1049-5258",
+  arxivid  = "1501.02315"
 }
 
-% The entry below contains non-ASCII chars that could not be converted
-% to a LaTeX equivalent.
-@ARTICLE{Polimis2017-ye,
-  title    = "Confidence Intervals for Random Forests in Python",
-  author   = "Polimis, Kivan and Rokem, Ariel and Hazelton, Bryna",
-  abstract = "We study the variability of predictions made by bagged learners
-              and random forests, and show how to estimate standard errors for
-              these methods. Our work builds on variance estimates for bagging
-              proposed by Efron (1992, 2013) that are based on the jackknife
-              and the inﬁnitesimal jackknife (IJ). In practice, bagged
-              predictors are computed using a ﬁnite number B of bootstrap
-              replicates, and working with a large B can be computationally
-              expensive. Direct applications of jackknife and IJ estimators to
-              bagging require B = $\Theta$(n1.5) bootstrap replicates to
-              converge, where n is the size of the training set. We propose
-              improved versions that only require B = $\Theta$(n) replicates.
-              Moreover, we show that the IJ estimator requires 1.7 times less
-              bootstrap replicates than the jackknife to achieve a given
-              accuracy. Finally, we study the sampling distributions of the
-              jackknife and IJ variance estimates themselves. We illustrate our
-              ﬁndings with multiple experiments and simulation studies.",
-  journal  = "The Journal of Open Source Software",
-  volume   =  2,
-  number   =  19,
-  pages    = "124",
-  year     =  2017,
-  url      = "http://dx.doi.org/10.21105/joss.00124",
-  issn     = "2475-9066",
-  doi      = "10.21105/joss.00124"
+@MISC{Agrawal1981-dd,
+  title        = "When machine learning meets {AI} and game theory",
+  author       = "Agrawal, Anurag and Jaiswal, Deepak",
+  abstract     = "---We study the problem of development of intelligent machine
+                  learning applications to exploit the problems of adap-tation
+                  that arise in multi-agent systems, for
+                  expected-long-term-profit maximization. We present two
+                  results. First, we propose a learning algorithm for the
+                  Iterated Prisoners Dilemma (IPD) problem. Using numerical
+                  analysis we show that it performs strictly better than the
+                  tit-for-tat algorithm and many other adaptive and
+                  non-adaptive strategies. Second, we study the same problem
+                  from the aspect of zero-sum games. We discuss how AI and
+                  Machine Learning techniques work closely to give our agent a
+                  'mind-reading' capability.",
+  year         =  1981,
+  url          = "http://cs229.stanford.edu/proj2012/AgrawalJaiswal-WhenMachineLearningMeetsAIandGameTheory.pdf",
+  howpublished = "\url{http://cs229.stanford.edu/proj2012/AgrawalJaiswal-WhenMachineLearningMeetsAIandGameTheory.pdf}"
 }
 
-@ARTICLE{Zhang2019-xa,
-  title    = "Bootstrap confidence intervals for the optimal cutoff point to
-              bisect estimated probabilities from logistic regression",
-  author   = "Zhang, Zheng and Shi, Xianjun and Xiang, Xiaogang and Wang,
-              Chengyong and Xiao, Shiwu and Su, Xiaogang",
-  abstract = "To classify estimated probabilities from a logistic regression
-              model into two groups (e.g., yes or no, disease or no disease),
-              the optimal cutoff point or threshold is crucial. While various
-              methods have been proposed for estimating such a threshold,
-              statistical inference is not generally available. To tackle this
-              issue, we put forward several bootstrap based methods, including
-              the conventional nonparametric bootstrap standard errors and the
-              quantile interval. Special emphasis is placed on a more precise
-              bagging estimator of the optimal cutoff point, for which a
-              confidence interval can be obtained via the recently proposed
-              infinitesimal jackknife method. We investigate the empirical
-              performance of the proposed methods by simulation and illustrate
-              their use via the analysis of a fertility data set concerning
-              seminal quality prediction.",
-  journal  = "Stat. Methods Med. Res.",
-  year     =  2019,
-  url      = "http://dx.doi.org/10.1177/0962280219864998",
-  keywords = "Classification; Youden index; logistic regression; optimal cutoff
-              point; receiver operating characteristic curve",
-  issn     = "0962-2802, 1477-0334",
-  doi      = "10.1177/0962280219864998"
+@ARTICLE{Goodfellow2016-mh,
+  title         = "{NIPS} 2016 Tutorial: Generative Adversarial Networks",
+  author        = "Goodfellow, Ian",
+  abstract      = "This report summarizes the tutorial presented by the author
+                   at NIPS 2016 on generative adversarial networks (GANs). The
+                   tutorial describes: (1) Why generative modeling is a topic
+                   worth studying, (2) how generative models work, and how GANs
+                   compare to other generative models, (3) the details of how
+                   GANs work, (4) research frontiers in GANs, and (5)
+                   state-of-the-art image models that combine GANs with other
+                   methods. Finally, the tutorial contains three exercises for
+                   readers to complete, and the solutions to these exercises.",
+  month         =  dec,
+  year          =  2016,
+  url           = "http://arxiv.org/abs/1701.00160",
+  archivePrefix = "arXiv",
+  eprint        = "1701.00160",
+  primaryClass  = "cs.LG",
+  arxivid       = "1701.00160"
 }
 
-% The entry below contains non-ASCII chars that could not be converted
-% to a LaTeX equivalent.
-@ARTICLE{Wager2014-ou,
-  title    = "Confidence intervals for random forests: The jackknife and the
-              infinitesimal jackknife",
-  author   = "Wager, Stefan and Hastie, Trevor and Efron, Bradley",
-  abstract = "We study the variability of predictions made by bagged learners
-              and random forests, and show how to estimate standard errors for
-              these methods. Our work builds on variance estimates for bagging
-              proposed by Efron (1992, 2013) that are based on the jackknife
-              and the infinitesimal jackknife (IJ). In practice, bagged
-              predictors are computed using a finite number B of bootstrap
-              replicates, and working with a large B can be computationally
-              expensive. Direct applications of jackknife and IJ estimators to
-              bagging require B = ⊖(n1.5) bootstrap replicates to converge,
-              where n is the size of the training set. We propose improved
-              versions that only require B = ⊖(n) replicates. Moreover, we show
-              that the IJ estimator requires 1.7 times less bootstrap
-              replicates than the jackknife to achieve a given accuracy.
-              Finally, we study the sampling distributions of the jackknife and
-              IJ variance estimates themselves. We illustrate our findings with
-              multiple experiments and simulation studies. \copyright{} 2014
-              Stefan Wager, Trevor Hastie and Bradley Efron.",
-  journal  = "J. Mach. Learn. Res.",
-  volume   =  15,
-  pages    = "1625--1651",
-  year     =  2014,
-  url      = "https://www.ncbi.nlm.nih.gov/pubmed/25580094",
-  keywords = "Bagging; Jackknife methods; Monte Carlo noise; Variance
-              estimation",
-  issn     = "1532-4435, 1533-7928",
-  pmid     = "25580094",
-  arxivid  = "1311.4555"
+@ARTICLE{Mirza2014-xs,
+  title         = "Conditional Generative Adversarial Nets",
+  author        = "Mirza, Mehdi and Osindero, Simon",
+  abstract      = "Generative Adversarial Nets [8] were recently introduced as
+                   a novel way to train generative models. In this work we
+                   introduce the conditional version of generative adversarial
+                   nets, which can be constructed by simply feeding the data,
+                   y, we wish to condition on to both the generator and
+                   discriminator. We show that this model can generate MNIST
+                   digits conditioned on class labels. We also illustrate how
+                   this model could be used to learn a multi-modal model, and
+                   provide preliminary examples of an application to image
+                   tagging in which we demonstrate how this approach can
+                   generate descriptive tags which are not part of training
+                   labels.",
+  month         =  nov,
+  year          =  2014,
+  url           = "http://arxiv.org/abs/1411.1784",
+  archivePrefix = "arXiv",
+  eprint        = "1411.1784",
+  primaryClass  = "cs.LG",
+  arxivid       = "1411.1784"
 }
 
-@ARTICLE{Gao2018-ng,
-  title     = "Memberships of the Open Cluster {NGC} 6405 Based on a Combined
-               Method: Gaussian Mixture Model and Random Forest",
-  author    = "Gao, Xinhua",
-  journal   = "Astron. J.",
-  publisher = "IOP Publishing",
-  volume    =  156,
-  number    =  3,
-  pages     = "121",
-  year      =  2018,
-  url       = "http://dx.doi.org/10.3847/1538-3881/aad690",
-  keywords  = "data analysis; individual; machine-readable table; methods;
-               methods: data analysis,methods: statistical,open c; ngc 6405;
-               open clusters and associations; parallaxes; proper motions;
-               statistical; supporting material",
-  issn      = "0004-6256",
-  doi       = "10.3847/1538-3881/aad690"
+@ARTICLE{Goodfellow2014-kv,
+  title         = "Generative Adversarial Networks",
+  author        = "Goodfellow, Ian J and Pouget-Abadie, Jean and Mirza, Mehdi
+                   and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and
+                   Courville, Aaron and Bengio, Yoshua",
+  abstract      = "We propose a new framework for estimating generative models
+                   via an adversarial process, in which we simultaneously train
+                   two models: a generative model G that captures the data
+                   distribution, and a discriminative model D that estimates
+                   the probability that a sample came from the training data
+                   rather than G. The training procedure for G is to maximize
+                   the probability of D making a mistake. This framework
+                   corresponds to a minimax two-player game. In the space of
+                   arbitrary functions G and D, a unique solution exists, with
+                   G recovering the training data distribution and D equal to
+                   1/2 everywhere. In the case where G and D are defined by
+                   multilayer perceptrons, the entire system can be trained
+                   with backpropagation. There is no need for any Markov chains
+                   or unrolled approximate inference networks during either
+                   training or generation of samples. Experiments demonstrate
+                   the potential of the framework through qualitative and
+                   quantitative evaluation of the generated samples.",
+  month         =  jun,
+  year          =  2014,
+  url           = "http://arxiv.org/abs/1406.2661",
+  archivePrefix = "arXiv",
+  eprint        = "1406.2661",
+  primaryClass  = "stat.ML",
+  arxivid       = "1406.2661"
 }
 
-@ARTICLE{Schapire2013-aa,
-  title    = "Explaining adaboost",
-  author   = "Schapire, Robert E",
-  abstract = "Boosting is an approach to machine learning based on the idea of
-              creating a highly accurate prediction rule by combining many
-              relatively weak and inaccurate rules. The AdaBoost algorithm of
-              Freund and Schapire was the first practical boosting algorithm,
-              and remains one of the most widely used and studied, with
-              applications in numerous fields. This chapter aims to review some
-              of the many perspectives and analyses of AdaBoost that have been
-              applied to explain or understand it as a learning method, with
-              comparisons of both the strengths and weaknesses of the various
-              approaches.",
-  journal  = "Empirical Inference: Festschrift in Honor of Vladimir N. Vapnik",
-  pages    = "37--52",
-  year     =  2013,
-  url      = "http://dx.doi.org/10.1007/978-3-642-41136-6_5",
-  doi      = "10.1007/978-3-642-41136-6\_5"
+@ARTICLE{Gorban2012-eh,
+  title         = "General H-theorem and entropies that violate the second law",
+  author        = "Gorban, Alexander N",
+  abstract      = "$H$-theorem states that the entropy production is
+                   nonnegative and, therefore, the entropy of a closed system
+                   should monotonically change in time. In information
+                   processing, the entropy production is positive for random
+                   transformation of signals (the information processing
+                   lemma). Originally, the $H$-theorem and the information
+                   processing lemma were proved for the classical
+                   Boltzmann-Gibbs-Shannon entropy and for the correspondent
+                   divergence (the relative entropy). Many new entropies and
+                   divergences have been proposed during last decades and for
+                   all of them the $H$-theorem is needed. This note proposes a
+                   simple and general criterion to check whether the
+                   $H$-theorem is valid for a convex divergence $H$ and
+                   demonstrates that some of the popular divergences obey no
+                   $H$-theorem. We consider systems with $n$ states $A_i$ that
+                   obey first order kinetics (master equation). A convex
+                   function $H$ is a Lyapunov function for all master equations
+                   with given equilibrium if and only if its conditional minima
+                   properly describe the equilibria of pair transitions $A_i
+                   \rightleftharpoons A_j$. This theorem does not depend on the
+                   principle of detailed balance and is valid for general
+                   Markov kinetics. Elementary analysis of pair equilibria
+                   demonstrates that the popular Bregman divergences like
+                   Euclidean distance or Itakura-Saito distance in the space of
+                   distribution cannot be the universal Lyapunov functions for
+                   the first-order kinetics and can increase in Markov
+                   processes. Therefore, they violate the second law and the
+                   information processing lemma. In particular, for these
+                   measures of information (divergences) random manipulation
+                   with data may add information to data. The main results are
+                   extended to nonlinear generalized mass action law kinetic
+                   equations. In Appendix, a new family of the universal
+                   Lyapunov functions for the generalized mass action law
+                   kinetics is described.",
+  month         =  dec,
+  year          =  2012,
+  url           = "http://arxiv.org/abs/1212.6767",
+  archivePrefix = "arXiv",
+  eprint        = "1212.6767",
+  primaryClass  = "cond-mat.stat-mech",
+  arxivid       = "1212.6767"
 }
 
-@ARTICLE{Hansen1990-pn,
-  title    = "Neural Network Ensembles",
-  author   = "Hansen, Lars Kai and Salamon, Peter",
-  abstract = "We propose several means for improving the performance and
-              training of neural networks for classification. We use
-              crossvalidation as a tool for optimizing network parameters and
-              architecture. We show further that the remaining residual
-              ``generalization'' error can be reduced by invoking ensembles of
-              similar networks. \copyright{} 1990 IEEE",
-  journal  = "IEEE Trans. Pattern Anal. Mach. Intell.",
-  volume   =  12,
-  number   =  10,
-  pages    = "993--1001",
-  year     =  1990,
-  url      = "http://dx.doi.org/10.1109/34.58871",
-  keywords = "Crossvalidation; N-version programming; fault tolerant computing;
-              neural networks",
-  issn     = "0162-8828",
-  doi      = "10.1109/34.58871"
+@ARTICLE{Nowozin2016-ri,
+  title         = "{f-GAN}: Training Generative Neural Samplers using
+                   Variational Divergence Minimization",
+  author        = "Nowozin, Sebastian and Cseke, Botond and Tomioka, Ryota",
+  abstract      = "Generative neural samplers are probabilistic models that
+                   implement sampling using feedforward neural networks: they
+                   take a random input vector and produce a sample from a
+                   probability distribution defined by the network weights.
+                   These models are expressive and allow efficient computation
+                   of samples and derivatives, but cannot be used for computing
+                   likelihoods or for marginalization. The
+                   generative-adversarial training method allows to train such
+                   models through the use of an auxiliary discriminative neural
+                   network. We show that the generative-adversarial approach is
+                   a special case of an existing more general variational
+                   divergence estimation approach. We show that any
+                   f-divergence can be used for training generative neural
+                   samplers. We discuss the benefits of various choices of
+                   divergence functions on training complexity and the quality
+                   of the obtained generative models.",
+  month         =  jun,
+  year          =  2016,
+  url           = "http://arxiv.org/abs/1606.00709",
+  archivePrefix = "arXiv",
+  eprint        = "1606.00709",
+  primaryClass  = "stat.ML",
+  arxivid       = "1606.00709"
 }
 
-@ARTICLE{Meinshausen2006-mh,
-  title    = "Quantile Regression Forests",
-  author   = "Meinshausen, Nicolai",
-  volume   =  7,
-  pages    = "983--999",
-  year     =  2006,
-  keywords = "adaptive neighborhood regression; quantile regression; random
-              forests"
+@ARTICLE{Chen2016-jg,
+  title         = "{InfoGAN}: Interpretable Representation Learning by
+                   Information Maximizing Generative Adversarial Nets",
+  author        = "Chen, Xi and Duan, Yan and Houthooft, Rein and Schulman,
+                   John and Sutskever, Ilya and Abbeel, Pieter",
+  abstract      = "This paper describes InfoGAN, an information-theoretic
+                   extension to the Generative Adversarial Network that is able
+                   to learn disentangled representations in a completely
+                   unsupervised manner. InfoGAN is a generative adversarial
+                   network that also maximizes the mutual information between a
+                   small subset of the latent variables and the observation. We
+                   derive a lower bound to the mutual information objective
+                   that can be optimized efficiently, and show that our
+                   training procedure can be interpreted as a variation of the
+                   Wake-Sleep algorithm. Specifically, InfoGAN successfully
+                   disentangles writing styles from digit shapes on the MNIST
+                   dataset, pose from lighting of 3D rendered images, and
+                   background digits from the central digit on the SVHN
+                   dataset. It also discovers visual concepts that include hair
+                   styles, presence/absence of eyeglasses, and emotions on the
+                   CelebA face dataset. Experiments show that InfoGAN learns
+                   interpretable representations that are competitive with
+                   representations learned by existing fully supervised
+                   methods.",
+  month         =  jun,
+  year          =  2016,
+  url           = "http://arxiv.org/abs/1606.03657",
+  archivePrefix = "arXiv",
+  eprint        = "1606.03657",
+  primaryClass  = "cs.LG",
+  arxivid       = "1606.03657"
 }
 
-@ARTICLE{Parr2020-cu,
-  title  = "Beware Default Random Forest Importances",
-  author = "Parr, Terence and Turgutlu, Kerem and Csiszar, Christopher and
-            Howard, Jeremy",
-  pages  = "1--25",
-  year   =  2020
-}
-
-@ARTICLE{Biau2012-uj,
-  title    = "Analysis of a Random Forests Model",
-  author   = "Biau, G\textbackslash'{e}rard",
-  abstract = "Random forests are a scheme proposed by Leo Breiman in the 2000's
-              for building a predictor ensemble with a set of decision trees
-              that grow in randomly selected subspaces of data. Despite growing
-              interest and practical use, there has been little exploration of
-              the statistical properties of random forests, and little is known
-              about the mathematical forces driving the algorithm. In this
-              paper, we offer an in-depth analysis of a random forests model
-              suggested by Breiman (2004), which is very close to the original
-              algorithm. We show in particular that the procedure is consistent
-              and adapts to sparsity, in the sense that its rate of convergence
-              depends only on the number of strong features and not on how many
-              noise variables are present.",
-  journal  = "J. Mach. Learn. Res.",
-  volume   =  13,
-  pages    = "1063--1095",
-  year     =  2012,
-  url      = "http://dx.doi.org/10.5555/2188385.2343682",
-  keywords = "biau2012",
-  issn     = "1532-4435",
-  doi      = "10.5555/2188385.2343682"
+@ARTICLE{Radford2015-lz,
+  title         = "Unsupervised Representation Learning with Deep Convolutional
+                   Generative Adversarial Networks",
+  author        = "Radford, Alec and Metz, Luke and Chintala, Soumith",
+  abstract      = "In recent years, supervised learning with convolutional
+                   networks (CNNs) has seen huge adoption in computer vision
+                   applications. Comparatively, unsupervised learning with CNNs
+                   has received less attention. In this work we hope to help
+                   bridge the gap between the success of CNNs for supervised
+                   learning and unsupervised learning. We introduce a class of
+                   CNNs called deep convolutional generative adversarial
+                   networks (DCGANs), that have certain architectural
+                   constraints, and demonstrate that they are a strong
+                   candidate for unsupervised learning. Training on various
+                   image datasets, we show convincing evidence that our deep
+                   convolutional adversarial pair learns a hierarchy of
+                   representations from object parts to scenes in both the
+                   generator and discriminator. Additionally, we use the
+                   learned features for novel tasks - demonstrating their
+                   applicability as general image representations.",
+  month         =  nov,
+  year          =  2015,
+  url           = "http://arxiv.org/abs/1511.06434",
+  archivePrefix = "arXiv",
+  eprint        = "1511.06434",
+  primaryClass  = "cs.LG",
+  arxivid       = "1511.06434"
 }
