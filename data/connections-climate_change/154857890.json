@@ -1,0 +1,27 @@
+{
+    "authors": [
+        {
+            "authorId": "3491432",
+            "name": "K. Riahi",
+            "url": "https://www.semanticscholar.org/author/3491432"
+        },
+        {
+            "authorId": "145291647",
+            "name": "A. Grubler",
+            "url": "https://www.semanticscholar.org/author/145291647"
+        },
+        {
+            "authorId": "2338789",
+            "name": "N. Nakicenovic",
+            "url": "https://www.semanticscholar.org/author/2338789"
+        }
+    ],
+    "corpusId": 154857890,
+    "doi": "10.1016/j.techfore.2006.05.026",
+    "numCitedBy": 1026,
+    "numCiting": 42,
+    "title": "Scenarios of long-term socio-economic and environmental development under climate stabilization",
+    "venue": "",
+    "year": 2007,
+    "local__referenced_to": []
+}

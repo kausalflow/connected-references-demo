@@ -1,0 +1,157 @@
+{
+    "authors": [
+        {
+            "authorId": "4213663",
+            "name": "P. Friedlingstein",
+            "url": "https://www.semanticscholar.org/author/4213663"
+        },
+        {
+            "authorId": "48372668",
+            "name": "P. Cox",
+            "url": "https://www.semanticscholar.org/author/48372668"
+        },
+        {
+            "authorId": "32411931",
+            "name": "R. Betts",
+            "url": "https://www.semanticscholar.org/author/32411931"
+        },
+        {
+            "authorId": "49659328",
+            "name": "L. Bopp",
+            "url": "https://www.semanticscholar.org/author/49659328"
+        },
+        {
+            "authorId": "2476574",
+            "name": "W. Bloh",
+            "url": "https://www.semanticscholar.org/author/2476574"
+        },
+        {
+            "authorId": "4262118",
+            "name": "V. Brovkin",
+            "url": "https://www.semanticscholar.org/author/4262118"
+        },
+        {
+            "authorId": "3482935",
+            "name": "P. Cadule",
+            "url": "https://www.semanticscholar.org/author/3482935"
+        },
+        {
+            "authorId": "4291899",
+            "name": "S. Doney",
+            "url": "https://www.semanticscholar.org/author/4291899"
+        },
+        {
+            "authorId": "31373642",
+            "name": "M. Eby",
+            "url": "https://www.semanticscholar.org/author/31373642"
+        },
+        {
+            "authorId": "31896741",
+            "name": "I. Fung",
+            "url": "https://www.semanticscholar.org/author/31896741"
+        },
+        {
+            "authorId": "3855766",
+            "name": "G. Bala",
+            "url": "https://www.semanticscholar.org/author/3855766"
+        },
+        {
+            "authorId": "47580923",
+            "name": "J. John",
+            "url": "https://www.semanticscholar.org/author/47580923"
+        },
+        {
+            "authorId": "39448670",
+            "name": "Chris D. Jones",
+            "url": "https://www.semanticscholar.org/author/39448670"
+        },
+        {
+            "authorId": "144287188",
+            "name": "F. Joos",
+            "url": "https://www.semanticscholar.org/author/144287188"
+        },
+        {
+            "authorId": "1947962",
+            "name": "Tomomichi Kato",
+            "url": "https://www.semanticscholar.org/author/1947962"
+        },
+        {
+            "authorId": "2673324",
+            "name": "M. Kawamiya",
+            "url": "https://www.semanticscholar.org/author/2673324"
+        },
+        {
+            "authorId": "2463417",
+            "name": "W. Knorr",
+            "url": "https://www.semanticscholar.org/author/2463417"
+        },
+        {
+            "authorId": "144466953",
+            "name": "K. Lindsay",
+            "url": "https://www.semanticscholar.org/author/144466953"
+        },
+        {
+            "authorId": "35687930",
+            "name": "H. Matthews",
+            "url": "https://www.semanticscholar.org/author/35687930"
+        },
+        {
+            "authorId": "70677075",
+            "name": "T. Raddatz",
+            "url": "https://www.semanticscholar.org/author/70677075"
+        },
+        {
+            "authorId": "49043087",
+            "name": "P. Rayner",
+            "url": "https://www.semanticscholar.org/author/49043087"
+        },
+        {
+            "authorId": "50397053",
+            "name": "C. Reick",
+            "url": "https://www.semanticscholar.org/author/50397053"
+        },
+        {
+            "authorId": "92524151",
+            "name": "E. Roeckner",
+            "url": "https://www.semanticscholar.org/author/92524151"
+        },
+        {
+            "authorId": "104434263",
+            "name": "K. Schnitzler",
+            "url": "https://www.semanticscholar.org/author/104434263"
+        },
+        {
+            "authorId": "50459820",
+            "name": "R. Schnur",
+            "url": "https://www.semanticscholar.org/author/50459820"
+        },
+        {
+            "authorId": "5245128",
+            "name": "K. Strassmann",
+            "url": "https://www.semanticscholar.org/author/5245128"
+        },
+        {
+            "authorId": "34795507",
+            "name": "A. Weaver",
+            "url": "https://www.semanticscholar.org/author/34795507"
+        },
+        {
+            "authorId": "48013959",
+            "name": "C. Yoshikawa",
+            "url": "https://www.semanticscholar.org/author/48013959"
+        },
+        {
+            "authorId": "2149303",
+            "name": "N. Zeng",
+            "url": "https://www.semanticscholar.org/author/2149303"
+        }
+    ],
+    "corpusId": 1614769,
+    "doi": "10.1175/jcli3800.1",
+    "numCitedBy": 2648,
+    "numCiting": 156,
+    "title": "Climate-carbon cycle feedback analysis: Results from the C",
+    "venue": "",
+    "year": 2005,
+    "local__referenced_to": []
+}

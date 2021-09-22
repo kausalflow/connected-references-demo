@@ -1,0 +1,95 @@
+{
+    "authors": [
+        {
+            "authorId": "31589982",
+            "name": "D. V. van Vuuren",
+            "url": "https://www.semanticscholar.org/author/31589982"
+        },
+        {
+            "authorId": "1996407",
+            "name": "M. Meinshausen",
+            "url": "https://www.semanticscholar.org/author/1996407"
+        },
+        {
+            "authorId": "104830911",
+            "name": "Gian-Kaspar Plattner",
+            "url": "https://www.semanticscholar.org/author/104830911"
+        },
+        {
+            "authorId": "144287188",
+            "name": "F. Joos",
+            "url": "https://www.semanticscholar.org/author/144287188"
+        },
+        {
+            "authorId": "5245128",
+            "name": "K. Strassmann",
+            "url": "https://www.semanticscholar.org/author/5245128"
+        },
+        {
+            "authorId": "152225248",
+            "name": "S. Smith",
+            "url": "https://www.semanticscholar.org/author/152225248"
+        },
+        {
+            "authorId": "145331845",
+            "name": "T. Wigley",
+            "url": "https://www.semanticscholar.org/author/145331845"
+        },
+        {
+            "authorId": "144311761",
+            "name": "S. Raper",
+            "url": "https://www.semanticscholar.org/author/144311761"
+        },
+        {
+            "authorId": "3491432",
+            "name": "K. Riahi",
+            "url": "https://www.semanticscholar.org/author/3491432"
+        },
+        {
+            "authorId": "1737505916",
+            "name": "F. de la Chesnaye",
+            "url": "https://www.semanticscholar.org/author/1737505916"
+        },
+        {
+            "authorId": "5855308",
+            "name": "M. D. den Elzen",
+            "url": "https://www.semanticscholar.org/author/5855308"
+        },
+        {
+            "authorId": "47807239",
+            "name": "J. Fujino",
+            "url": "https://www.semanticscholar.org/author/47807239"
+        },
+        {
+            "authorId": "145470787",
+            "name": "K. Jiang",
+            "url": "https://www.semanticscholar.org/author/145470787"
+        },
+        {
+            "authorId": "2338789",
+            "name": "N. Nakicenovic",
+            "url": "https://www.semanticscholar.org/author/2338789"
+        },
+        {
+            "authorId": "4512254",
+            "name": "S. Paltsev",
+            "url": "https://www.semanticscholar.org/author/4512254"
+        },
+        {
+            "authorId": "2070856",
+            "name": "J. Reilly",
+            "url": "https://www.semanticscholar.org/author/2070856"
+        }
+    ],
+    "corpusId": 14298480,
+    "doi": "10.1073/pnas.0711129105",
+    "numCitedBy": 155,
+    "numCiting": 108,
+    "title": "Temperature increase of 21st century mitigation scenarios",
+    "venue": "Proceedings of the National Academy of Sciences",
+    "year": 2008,
+    "local__referenced_to": [
+        "10.1175/jcli3800.1",
+        "10.1016/j.techfore.2006.05.026"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "authors": [
+        {
+            "authorId": "143932649",
+            "name": "K. Ebi",
+            "url": "https://www.semanticscholar.org/author/143932649"
+        }
+    ],
+    "corpusId": 12868807,
+    "doi": "10.3390/ijerph110100030",
+    "numCitedBy": 54,
+    "numCiting": 45,
+    "title": "Health in the New Scenarios for Climate Change Research",
+    "venue": "International journal of environmental research and public health",
+    "year": 2013,
+    "local__referenced_to": [
+        "10.1038/nature08823",
+        "10.1029/2007eo200002"
+    ]
+}

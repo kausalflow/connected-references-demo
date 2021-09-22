@@ -1,0 +1,112 @@
+{
+    "authors": [
+        {
+            "authorId": "70112088",
+            "name": "R. Moss",
+            "url": "https://www.semanticscholar.org/author/70112088"
+        },
+        {
+            "authorId": "39914182",
+            "name": "J. Edmonds",
+            "url": "https://www.semanticscholar.org/author/39914182"
+        },
+        {
+            "authorId": "3631772",
+            "name": "K. Hibbard",
+            "url": "https://www.semanticscholar.org/author/3631772"
+        },
+        {
+            "authorId": "48990549",
+            "name": "M. Manning",
+            "url": "https://www.semanticscholar.org/author/48990549"
+        },
+        {
+            "authorId": "49856115",
+            "name": "S. Rose",
+            "url": "https://www.semanticscholar.org/author/49856115"
+        },
+        {
+            "authorId": "34589425",
+            "name": "D. Vuuren",
+            "url": "https://www.semanticscholar.org/author/34589425"
+        },
+        {
+            "authorId": "49045938",
+            "name": "T. Carter",
+            "url": "https://www.semanticscholar.org/author/49045938"
+        },
+        {
+            "authorId": "4913350",
+            "name": "S. Emori",
+            "url": "https://www.semanticscholar.org/author/4913350"
+        },
+        {
+            "authorId": "12142609",
+            "name": "M. Kainuma",
+            "url": "https://www.semanticscholar.org/author/12142609"
+        },
+        {
+            "authorId": "5804719",
+            "name": "T. Kram",
+            "url": "https://www.semanticscholar.org/author/5804719"
+        },
+        {
+            "authorId": "3221562",
+            "name": "G. Meehl",
+            "url": "https://www.semanticscholar.org/author/3221562"
+        },
+        {
+            "authorId": "144964145",
+            "name": "John F. B. Mitchell",
+            "url": "https://www.semanticscholar.org/author/144964145"
+        },
+        {
+            "authorId": "2338789",
+            "name": "N. Nakicenovic",
+            "url": "https://www.semanticscholar.org/author/2338789"
+        },
+        {
+            "authorId": "3491432",
+            "name": "K. Riahi",
+            "url": "https://www.semanticscholar.org/author/3491432"
+        },
+        {
+            "authorId": "2111046368",
+            "name": "Steven J. Smith",
+            "url": "https://www.semanticscholar.org/author/2111046368"
+        },
+        {
+            "authorId": "3711975",
+            "name": "R. Stouffer",
+            "url": "https://www.semanticscholar.org/author/3711975"
+        },
+        {
+            "authorId": "145070716",
+            "name": "A. Thomson",
+            "url": "https://www.semanticscholar.org/author/145070716"
+        },
+        {
+            "authorId": "49930834",
+            "name": "J. Weyant",
+            "url": "https://www.semanticscholar.org/author/49930834"
+        },
+        {
+            "authorId": "4753328",
+            "name": "T. Wilbanks",
+            "url": "https://www.semanticscholar.org/author/4753328"
+        }
+    ],
+    "corpusId": 27573,
+    "doi": "10.1038/nature08823",
+    "numCitedBy": 4882,
+    "numCiting": 139,
+    "title": "The next generation of scenarios for climate change research and assessment",
+    "venue": "Nature",
+    "year": 2010,
+    "local__referenced_to": [
+        "10.1073/pnas.0711129105",
+        "10.1175/jcli3800.1",
+        "10.1029/2007eo200002",
+        "10.1016/j.techfore.2006.05.026"
+    ]
+}

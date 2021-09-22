@@ -1,0 +1,34 @@
+{
+    "authors": [
+        {
+            "authorId": "3631772",
+            "name": "K. Hibbard",
+            "url": "https://www.semanticscholar.org/author/3631772"
+        },
+        {
+            "authorId": "3221562",
+            "name": "G. Meehl",
+            "url": "https://www.semanticscholar.org/author/3221562"
+        },
+        {
+            "authorId": "48372668",
+            "name": "P. Cox",
+            "url": "https://www.semanticscholar.org/author/48372668"
+        },
+        {
+            "authorId": "4213663",
+            "name": "P. Friedlingstein",
+            "url": "https://www.semanticscholar.org/author/4213663"
+        }
+    ],
+    "corpusId": 128770297,
+    "doi": "10.1029/2007eo200002",
+    "numCitedBy": 132,
+    "numCiting": 3,
+    "title": "A strategy for climate change stabilization experiments",
+    "venue": "",
+    "year": 2007,
+    "local__referenced_to": [
+        "10.1175/jcli3800.1"
+    ]
+}
