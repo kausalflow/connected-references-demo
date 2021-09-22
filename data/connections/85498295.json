@@ -1,0 +1,37 @@
+{
+    "authors": [
+        {
+            "authorId": "46261388",
+            "name": "R. Giordano",
+            "url": "https://www.semanticscholar.org/author/46261388"
+        },
+        {
+            "authorId": "46392459",
+            "name": "William T. Stephenson",
+            "url": "https://www.semanticscholar.org/author/46392459"
+        },
+        {
+            "authorId": "2731656",
+            "name": "Runjing Liu",
+            "url": "https://www.semanticscholar.org/author/2731656"
+        },
+        {
+            "authorId": "1694621",
+            "name": "Michael I. Jordan",
+            "url": "https://www.semanticscholar.org/author/1694621"
+        },
+        {
+            "authorId": "1840690",
+            "name": "Tamara Broderick",
+            "url": "https://www.semanticscholar.org/author/1840690"
+        }
+    ],
+    "corpusId": 85498295,
+    "doi": "",
+    "numCitedBy": 38,
+    "numCiting": 26,
+    "title": "A Swiss Army Infinitesimal Jackknife",
+    "venue": "AISTATS",
+    "year": 2019,
+    "local__referenced_to": []
+}

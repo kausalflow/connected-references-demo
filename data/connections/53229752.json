@@ -1,0 +1,27 @@
+{
+    "authors": [
+        {
+            "authorId": "51877210",
+            "name": "Kivan Polimis",
+            "url": "https://www.semanticscholar.org/author/51877210"
+        },
+        {
+            "authorId": "2842990",
+            "name": "A. Rokem",
+            "url": "https://www.semanticscholar.org/author/2842990"
+        },
+        {
+            "authorId": "3608709",
+            "name": "B. Hazelton",
+            "url": "https://www.semanticscholar.org/author/3608709"
+        }
+    ],
+    "corpusId": 53229752,
+    "doi": "10.21105/joss.00124",
+    "numCitedBy": 7,
+    "numCiting": 3,
+    "title": "Confidence Intervals for Random Forests in Python",
+    "venue": "J. Open Source Softw.",
+    "year": 2017,
+    "local__referenced_to": []
+}

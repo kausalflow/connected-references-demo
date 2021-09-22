@@ -1,0 +1,17 @@
+{
+    "authors": [
+        {
+            "authorId": "3056361",
+            "name": "J. Friedman",
+            "url": "https://www.semanticscholar.org/author/3056361"
+        }
+    ],
+    "corpusId": 9913392,
+    "doi": "10.1214/aos/1016218223",
+    "numCitedBy": 4369,
+    "numCiting": 69,
+    "title": "Special Invited Paper-Additive logistic regression: A statistical view of boosting",
+    "venue": "",
+    "year": 2000,
+    "local__referenced_to": []
+}

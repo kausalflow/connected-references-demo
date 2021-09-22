@@ -1,0 +1,42 @@
+{
+    "authors": [
+        {
+            "authorId": "145527564",
+            "name": "Z. Zhang",
+            "url": "https://www.semanticscholar.org/author/145527564"
+        },
+        {
+            "authorId": "2119205092",
+            "name": "Xianjun Shi",
+            "url": "https://www.semanticscholar.org/author/2119205092"
+        },
+        {
+            "authorId": "2056228978",
+            "name": "Xiaogang Xiang",
+            "url": "https://www.semanticscholar.org/author/2056228978"
+        },
+        {
+            "authorId": "2108821061",
+            "name": "Chengyong Wang",
+            "url": "https://www.semanticscholar.org/author/2108821061"
+        },
+        {
+            "authorId": "151394267",
+            "name": "Shiwu Xiao",
+            "url": "https://www.semanticscholar.org/author/151394267"
+        },
+        {
+            "authorId": "47118759",
+            "name": "Xiaogang Su",
+            "url": "https://www.semanticscholar.org/author/47118759"
+        }
+    ],
+    "corpusId": 198982945,
+    "doi": "10.1177/0962280219864998",
+    "numCitedBy": 1,
+    "numCiting": 25,
+    "title": "Bootstrap confidence intervals for the optimal cutoff point to bisect estimated probabilities from logistic regression",
+    "venue": "Statistical methods in medical research",
+    "year": 2019,
+    "local__referenced_to": []
+}

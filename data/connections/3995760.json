@@ -1,0 +1,27 @@
+{
+    "authors": [
+        {
+            "authorId": "2414228",
+            "name": "Tyler M. Tomita",
+            "url": "https://www.semanticscholar.org/author/2414228"
+        },
+        {
+            "authorId": "34207023",
+            "name": "M. Maggioni",
+            "url": "https://www.semanticscholar.org/author/34207023"
+        },
+        {
+            "authorId": "1717958",
+            "name": "J. Vogelstein",
+            "url": "https://www.semanticscholar.org/author/1717958"
+        }
+    ],
+    "corpusId": 3995760,
+    "doi": "",
+    "numCitedBy": 8,
+    "numCiting": 20,
+    "title": "Randomer Forests",
+    "venue": "ArXiv",
+    "year": 2015,
+    "local__referenced_to": []
+}

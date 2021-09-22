@@ -1,0 +1,24 @@
+{
+    "authors": [
+        {
+            "authorId": "3422652",
+            "name": "L. Mentch",
+            "url": "https://www.semanticscholar.org/author/3422652"
+        },
+        {
+            "authorId": "47707186",
+            "name": "Siyu Zhou",
+            "url": "https://www.semanticscholar.org/author/47707186"
+        }
+    ],
+    "corpusId": 207869921,
+    "doi": "",
+    "numCitedBy": 10,
+    "numCiting": 99,
+    "title": "Randomization as Regularization: A Degrees of Freedom Explanation for Random Forest Success",
+    "venue": "J. Mach. Learn. Res.",
+    "year": 2020,
+    "local__referenced_to": [
+        "10.1007/s11749-016-0481-7"
+    ]
+}

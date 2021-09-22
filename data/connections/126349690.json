@@ -1,0 +1,17 @@
+{
+    "authors": [
+        {
+            "authorId": "13456184",
+            "name": "Xin-hua Gao",
+            "url": "https://www.semanticscholar.org/author/13456184"
+        }
+    ],
+    "corpusId": 126349690,
+    "doi": "10.3847/1538-3881/aad690",
+    "numCitedBy": 13,
+    "numCiting": 0,
+    "title": "Memberships of the Open Cluster NGC 6405 Based on a Combined Method: Gaussian Mixture Model and Random Forest",
+    "venue": "",
+    "year": 2018,
+    "local__referenced_to": []
+}

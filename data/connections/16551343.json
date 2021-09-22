@@ -1,0 +1,22 @@
+{
+    "authors": [
+        {
+            "authorId": "3284622",
+            "name": "Silke Janitza",
+            "url": "https://www.semanticscholar.org/author/3284622"
+        },
+        {
+            "authorId": "145249486",
+            "name": "R. Hornung",
+            "url": "https://www.semanticscholar.org/author/145249486"
+        }
+    ],
+    "corpusId": 16551343,
+    "doi": "10.1371/journal.pone.0201904",
+    "numCitedBy": 60,
+    "numCiting": 59,
+    "title": "On the overestimation of random forest\u2019s out-of-bag error",
+    "venue": "PloS one",
+    "year": 2018,
+    "local__referenced_to": []
+}

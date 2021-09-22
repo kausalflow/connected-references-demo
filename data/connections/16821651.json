@@ -1,0 +1,22 @@
+{
+    "authors": [
+        {
+            "authorId": "145579972",
+            "name": "L. K. Hansen",
+            "url": "https://www.semanticscholar.org/author/145579972"
+        },
+        {
+            "authorId": "115778938",
+            "name": "P. Salamon",
+            "url": "https://www.semanticscholar.org/author/115778938"
+        }
+    ],
+    "corpusId": 16821651,
+    "doi": "10.1109/34.58871",
+    "numCitedBy": 2581,
+    "numCiting": 22,
+    "title": "Neural Network Ensembles",
+    "venue": "IEEE Trans. Pattern Anal. Mach. Intell.",
+    "year": 1990,
+    "local__referenced_to": []
+}
