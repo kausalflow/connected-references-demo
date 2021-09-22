@@ -1,0 +1,32 @@
+{
+    "authors": [
+        {
+            "authorId": "31189190",
+            "name": "Eric P. Grimit",
+            "url": "https://www.semanticscholar.org/author/31189190"
+        },
+        {
+            "authorId": "1839473",
+            "name": "T. Gneiting",
+            "url": "https://www.semanticscholar.org/author/1839473"
+        },
+        {
+            "authorId": "49321021",
+            "name": "V. Berrocal",
+            "url": "https://www.semanticscholar.org/author/49321021"
+        },
+        {
+            "authorId": "2069625411",
+            "name": "N. A. Johnson",
+            "url": "https://www.semanticscholar.org/author/2069625411"
+        }
+    ],
+    "corpusId": 5936322,
+    "doi": "10.1256/qj.05.235",
+    "numCitedBy": 125,
+    "numCiting": 50,
+    "title": "The continuous ranked probability score for circular variables and its application to mesoscale forecast ensemble verification",
+    "venue": "",
+    "year": 2006,
+    "local__referenced_to": []
+}

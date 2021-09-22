@@ -1,0 +1,22 @@
+{
+    "authors": [
+        {
+            "authorId": "2064915554",
+            "name": "Benjamin Lu",
+            "url": "https://www.semanticscholar.org/author/2064915554"
+        },
+        {
+            "authorId": "15601029",
+            "name": "J. Hardin",
+            "url": "https://www.semanticscholar.org/author/15601029"
+        }
+    ],
+    "corpusId": 209376325,
+    "doi": "",
+    "numCitedBy": 4,
+    "numCiting": 46,
+    "title": "A Unified Framework for Random Forest Prediction Error Estimation",
+    "venue": "J. Mach. Learn. Res.",
+    "year": 2021,
+    "local__referenced_to": []
+}

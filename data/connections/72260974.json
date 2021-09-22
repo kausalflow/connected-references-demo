@@ -1,0 +1,32 @@
+{
+    "authors": [
+        {
+            "authorId": "2080467880",
+            "name": "B. Pietz",
+            "url": "https://www.semanticscholar.org/author/2080467880"
+        },
+        {
+            "authorId": "2102724856",
+            "name": "U. Ikinger",
+            "url": "https://www.semanticscholar.org/author/2102724856"
+        },
+        {
+            "authorId": "92100474",
+            "name": "W. Bersch",
+            "url": "https://www.semanticscholar.org/author/92100474"
+        },
+        {
+            "authorId": "2073712145",
+            "name": "T. K\u00e4lble",
+            "url": "https://www.semanticscholar.org/author/2073712145"
+        }
+    ],
+    "corpusId": 72260974,
+    "doi": "10.1055/s-2008-1065268",
+    "numCitedBy": 0,
+    "numCiting": 0,
+    "title": "Leiomyosarkom der Harnblase",
+    "venue": "",
+    "year": 1998,
+    "local__referenced_to": []
+}

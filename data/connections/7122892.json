@@ -1,0 +1,17 @@
+{
+    "authors": [
+        {
+            "authorId": "1716301",
+            "name": "R. Schapire",
+            "url": "https://www.semanticscholar.org/author/1716301"
+        }
+    ],
+    "corpusId": 7122892,
+    "doi": "10.1007/978-3-642-41136-6_5",
+    "numCitedBy": 275,
+    "numCiting": 42,
+    "title": "Explaining AdaBoost",
+    "venue": "Empirical Inference",
+    "year": 2013,
+    "local__referenced_to": []
+}

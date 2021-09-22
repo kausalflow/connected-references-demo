@@ -1,0 +1,37 @@
+{
+    "authors": [
+        {
+            "authorId": "65852390",
+            "name": "S. Carliles",
+            "url": "https://www.semanticscholar.org/author/65852390"
+        },
+        {
+            "authorId": "2307866",
+            "name": "T. Budavari",
+            "url": "https://www.semanticscholar.org/author/2307866"
+        },
+        {
+            "authorId": "145306684",
+            "name": "S. Heinis",
+            "url": "https://www.semanticscholar.org/author/145306684"
+        },
+        {
+            "authorId": "1693972",
+            "name": "C. Priebe",
+            "url": "https://www.semanticscholar.org/author/1693972"
+        },
+        {
+            "authorId": "7934073",
+            "name": "A. Szalay",
+            "url": "https://www.semanticscholar.org/author/7934073"
+        }
+    ],
+    "corpusId": 16603883,
+    "doi": "10.1088/0004-637x/712/1/511",
+    "numCitedBy": 103,
+    "numCiting": 29,
+    "title": "Random Forests for Photometric Redshifts",
+    "venue": "",
+    "year": 2010,
+    "local__referenced_to": []
+}
